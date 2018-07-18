@@ -3,14 +3,47 @@
 
 	body{
 		background-color: black;
+		font-size: 10px;
+		font-family: 'helvetica', 'arial';
 	}
+	a:link,
+	a:visited{
+		color: white;
+		margin-left: 1em;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	
+	
+	/*animation controls*/	
+	
+	#controls{
+		font-size: 15px;
+		position: fixed;
+		bottom: 1em;
+		right: 1em;
+	}
+
+	body.horizontals .letter span:nth-child(-n+6){
+		width: 0%;
+	}
+
+	body.verticals .letter span:nth-child(n+7):nth-child(-n+12){
+		width: 0%;
+	}
+
+
+	/*letters*/	
+
 	.letter{
-		width: 30px;
-		height: 40px;
+		width: 3em;
+		height: 4em;
 		position: relative;
 		display: inline-block;
 		overflow: hidden;
-		margin: 5px;	
+		margin: 25px;	
 	}
 	.letter span{
 		position: absolute;
@@ -18,20 +51,31 @@
 		transition: all 1s linear;
 	}
 	.letter span:nth-child(even){
-		transition-delay: .25s;
+		transition: all 1.5s linear;
 	}
+	
+	/*group: horizontal bars*/
+	
 	.letter span:nth-child(-n+6){
 		width: 50%;
-		height: 2px;
+		height: 0.2em;
 	}
+	
+	/*group: vertical bars*/
+	
 	.letter span:nth-child(n+7):nth-child(-n+12){
-		width: 2px;
+		width: 0.2em;
 		height: 50%;
 	}
+	
+	/*group: diagonal bars*/
+	
 	.letter span:nth-child(n+13):nth-child(-n+16){
 		width: 75%;
-		height: 2px;
+		height: 0.2em;
 	}
+
+	/* single bars */
 
 	.letter span:nth-child(1){
 		top: 0px;
@@ -51,7 +95,7 @@
 	}
 	.letter span:nth-child(3),
 	.letter span:nth-child(4){
-		transform: translateY(-1px);
+		transform: translateY(-0.1em);
 	}
 	.letter span:nth-child(5){
 		bottom: 0px;
@@ -87,31 +131,31 @@
 	}
 	.letter span:nth-child(8),
 	.letter span:nth-child(11){
-		transform: translateX(-1px);
+		transform: translateX(-0.1em);
 	}
 	.letter span:nth-child(13){
 		top: 0px;
 		left: 0px;
 		transform-origin: center left;
-		transform: rotate(53deg) translateX(-1px);
+		transform: rotate(53deg) translateX(-0.1em);
 	}
 	.letter span:nth-child(14){
 		top: 50%;
 		left: 50%;
 		transform-origin: center left;
-		transform: rotate(53deg) translateX(-1px);
+		transform: rotate(53deg) translateX(-0.1em);
 	}
 	.letter span:nth-child(15){
 		top: 0px;
 		right: 0px;
 		transform-origin: center right;
-		transform: rotate(-53deg) translateX(-1px);
+		transform: rotate(-53deg) translateX(-0.1em);
 	}
 	.letter span:nth-child(16){
 		top: 50%;
 		right: 50%;
 		transform-origin: center right;
-		transform: rotate(-53deg) translateX(-1px);
+		transform: rotate(-53deg) translateX(-0.1em);
 	}
 
 	/*letters*/
@@ -120,7 +164,9 @@
 	.j.letter span:nth-child(1),
 	.k.letter span:nth-child(1),
 	.l.letter span:nth-child(1),
+	.m.letter span:nth-child(1),
 	.n.letter span:nth-child(1),
+	.u.letter span:nth-child(1),
 	.v.letter span:nth-child(1),
 	.w.letter span:nth-child(1),
 	.x.letter span:nth-child(1),
@@ -137,6 +183,7 @@
 	.l.letter span:nth-child(2),
 	.m.letter span:nth-child(2),
 	.n.letter span:nth-child(2),
+	.u.letter span:nth-child(2),
 	.v.letter span:nth-child(2),
 	.w.letter span:nth-child(2),
 	.x.letter span:nth-child(2),
@@ -158,6 +205,7 @@
 	.o.letter span:nth-child(3),
 	.q.letter span:nth-child(3),
 	.t.letter span:nth-child(3),
+	.u.letter span:nth-child(3),
 	.v.letter span:nth-child(3),
 	.w.letter span:nth-child(3),
 	.x.letter span:nth-child(3),
@@ -180,6 +228,7 @@
 	.o.letter span:nth-child(4),
 	.q.letter span:nth-child(4),
 	.t.letter span:nth-child(4),
+	.u.letter span:nth-child(4),
 	.v.letter span:nth-child(4),
 	.w.letter span:nth-child(4),
 	.x.letter span:nth-child(4),
@@ -209,7 +258,6 @@
 	}
 	.a.letter span:nth-child(6),
 	.f.letter span:nth-child(6),
-	.g.letter span:nth-child(6),
 	.h.letter span:nth-child(6),
 	.k.letter span:nth-child(6),
 	.m.letter span:nth-child(6),
@@ -217,7 +265,6 @@
 	.p.letter span:nth-child(6),
 	.r.letter span:nth-child(6),
 	.t.letter span:nth-child(6),
-	.u.letter span:nth-child(6),
 	.v.letter span:nth-child(6),
 	.x.letter span:nth-child(6),
 	.four.letter span:nth-child(6),
@@ -229,7 +276,6 @@
 	.i.letter span:nth-child(7),
 	.j.letter span:nth-child(7),
 	.t.letter span:nth-child(7),
-	.u.letter span:nth-child(7),
 	.x.letter span:nth-child(7),
 	.z.letter span:nth-child(7),
 	.one.letter span:nth-child(7),
@@ -281,12 +327,10 @@
 	.f.letter span:nth-child(9),
 	.g.letter span:nth-child(9),
 	.i.letter span:nth-child(9),
-	.j.letter span:nth-child(9),
 	.k.letter span:nth-child(9),
 	.l.letter span:nth-child(9),
 	.s.letter span:nth-child(9),
 	.t.letter span:nth-child(9),
-	.u.letter span:nth-child(9),
 	.v.letter span:nth-child(9),
 	.x.letter span:nth-child(9),
 	.z.letter span:nth-child(9),
@@ -302,7 +346,6 @@
 	.j.letter span:nth-child(10),
 	.s.letter span:nth-child(10),
 	.t.letter span:nth-child(10),
-	.u.letter span:nth-child(10),
 	.x.letter span:nth-child(10),
 	.y.letter span:nth-child(10),
 	.z.letter span:nth-child(10),
@@ -346,6 +389,7 @@
 	.seven.letter span:nth-child(11),
 	.eight.letter span:nth-child(11),
 	.nine.letter span:nth-child(11),
+	.zero.letter span:nth-child(11),
 	.forward.letter span:nth-child(11){
 		height: 0px;
 	}
@@ -358,14 +402,12 @@
 	.p.letter span:nth-child(12),
 	.r.letter span:nth-child(12),
 	.t.letter span:nth-child(12),
-	.u.letter span:nth-child(12),
 	.v.letter span:nth-child(12),
 	.x.letter span:nth-child(12),
 	.y.letter span:nth-child(12),
 	.z.letter span:nth-child(12),
 	.one.letter span:nth-child(12),
 	.two.letter span:nth-child(12),
-	.four.letter span:nth-child(12),
 	.seven.letter span:nth-child(12),
 	.forward.letter span:nth-child(12),
 	.star.letter span:nth-child(12){
@@ -415,7 +457,6 @@
 	.h.letter span:nth-child(14),
 	.i.letter span:nth-child(14),
 	.j.letter span:nth-child(14),
-	.k.letter span:nth-child(14),
 	.l.letter span:nth-child(14),
 	.m.letter span:nth-child(14),
 	.o.letter span:nth-child(14),
@@ -468,6 +509,7 @@
 	.six.letter span:nth-child(15),
 	.eight.letter span:nth-child(15),
 	.nine.letter span:nth-child(15),
+	.zero.letter span:nth-child(15),
 	.forward.letter span:nth-child(15){
 		width: 0px;
 	}
@@ -501,7 +543,8 @@
 	.five.letter span:nth-child(16),
 	.six.letter span:nth-child(16),
 	.eight.letter span:nth-child(16),
-	.nine.letter span:nth-child(16){
+	.nine.letter span:nth-child(16),
+	.zero.letter span:nth-child(16){
 		width: 0px;
 	}
 
