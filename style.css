@@ -31,7 +31,7 @@
 	}
 
 	body.verticals .letter span:nth-child(n+7):nth-child(-n+12){
-		width: 0%;
+		height: 0%;
 	}
 
 
@@ -176,7 +176,6 @@
 	.star.letter span:nth-child(1){
 		width: 0px;
 	}
-	.b.letter span:nth-child(2),
 	.h.letter span:nth-child(2),
 	.j.letter span:nth-child(2),
 	.k.letter span:nth-child(2),
@@ -194,6 +193,7 @@
 	.star.letter span:nth-child(2){
 		width: 0px;
 	}
+	.b.letter span:nth-child(3),
 	.c.letter span:nth-child(3),
 	.d.letter span:nth-child(3),
 	.g.letter span:nth-child(3),
@@ -287,6 +287,7 @@
 		height: 0px;
 	}
 	.a.letter span:nth-child(8),
+	.b.letter span:nth-child(8),
 	.c.letter span:nth-child(8),
 	.d.letter span:nth-child(8),
 	.e.letter span:nth-child(8),
@@ -321,7 +322,6 @@
 	.forward.letter span:nth-child(8){
 		height: 0px;
 	}
-	.b.letter span:nth-child(9),
 	.c.letter span:nth-child(9),
 	.e.letter span:nth-child(9),
 	.f.letter span:nth-child(9),
