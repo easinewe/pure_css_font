@@ -3,6 +3,7 @@
 
 	body{
 		background-color: black;
+		color: white;
 		font-size: 20px;
 		font-family: 'helvetica', 'arial';
 	}
@@ -51,7 +52,7 @@
 		transition: all 1s linear;
 	}
 	.letter span:nth-child(even){
-		transition: all 1.5s linear;
+		transition: all 1s linear 1s;
 	}
 	
 	/*group: horizontal bars*/
@@ -95,10 +96,6 @@
 	.letter span:nth-child(4){
 		top: 50%;
 		right: 0px;
-	}
-	.letter span:nth-child(3),
-	.letter span:nth-child(4){
-		transform: translateY(-0.1em);
 	}
 	.letter span:nth-child(5){
 		bottom: 0px;
@@ -166,7 +163,8 @@
 	.y.letter span:nth-child(1),
 	.forward.letter span:nth-child(1),
 	.four.letter span:nth-child(1),
-	.star.letter span:nth-child(1){
+	.star.letter span:nth-child(1),
+	.space.letter span:nth-child(1){
 		width: 0px;
 	}
 	.h.letter span:nth-child(2),
@@ -183,7 +181,8 @@
 	.forward.letter span:nth-child(2),
 	.one.letter span:nth-child(2),
 	.four.letter span:nth-child(2),
-	.star.letter span:nth-child(2){
+	.star.letter span:nth-child(2),
+	.space.letter span:nth-child(2){
 		width: 0px;
 	}
 	.b.letter span:nth-child(3),
@@ -207,7 +206,8 @@
 	.one.letter span:nth-child(3),
 	.three.letter span:nth-child(3),
 	.seven.letter span:nth-child(3),
-	.zero.letter span:nth-child(3){
+	.zero.letter span:nth-child(3),
+	.space.letter span:nth-child(3){
 		width: 0px;
 	}
 	.c.letter span:nth-child(4),
@@ -229,7 +229,8 @@
 	.forward.letter span:nth-child(4),
 	.one.letter span:nth-child(4),
 	.seven.letter span:nth-child(4),
-	.zero.letter span:nth-child(4){
+	.zero.letter span:nth-child(4),
+	.space.letter span:nth-child(4){
 		width: 0px;
 	}
 	.a.letter span:nth-child(5),
@@ -246,7 +247,8 @@
 	.forward.letter span:nth-child(5),
 	.four.letter span:nth-child(5),
 	.seven.letter span:nth-child(5),
-	.star.letter span:nth-child(5){
+	.star.letter span:nth-child(5),
+	.space.letter span:nth-child(5){
 		width: 0px;
 	}
 	.a.letter span:nth-child(6),
@@ -263,7 +265,8 @@
 	.four.letter span:nth-child(6),
 	.seven.letter span:nth-child(6),
 	.forward.letter span:nth-child(6),
-	.star.letter span:nth-child(6){
+	.star.letter span:nth-child(6),
+	.space.letter span:nth-child(6){
 		width: 0px;
 	}
 	.i.letter span:nth-child(7),
@@ -276,7 +279,8 @@
 	.three.letter span:nth-child(7),
 	.seven.letter span:nth-child(7),
 	.forward.letter span:nth-child(7),
-	.star.letter span:nth-child(7){
+	.star.letter span:nth-child(7),
+	.space.letter span:nth-child(7){
 		height: 0px;
 	}
 	.a.letter span:nth-child(8),
@@ -312,7 +316,8 @@
 	.eight.letter span:nth-child(8),
 	.nine.letter span:nth-child(8),
 	.zero.letter span:nth-child(8),
-	.forward.letter span:nth-child(8){
+	.forward.letter span:nth-child(8),
+	.space.letter span:nth-child(8){
 		height: 0px;
 	}
 	.c.letter span:nth-child(9),
@@ -332,7 +337,8 @@
 	.six.letter span:nth-child(9),
 	.seven.letter span:nth-child(9),
 	.forward.letter span:nth-child(9),
-	.star.letter span:nth-child(9){
+	.star.letter span:nth-child(9),
+	.space.letter span:nth-child(9){
 		height: 0px;
 	}
 	.i.letter span:nth-child(10),
@@ -349,7 +355,8 @@
 	.seven.letter span:nth-child(10),
 	.nine.letter span:nth-child(10),
 	.forward.letter span:nth-child(10),
-	.star.letter span:nth-child(10){
+	.star.letter span:nth-child(10),
+	.space.letter span:nth-child(10){
 		height: 0px;
 	}
 	.a.letter span:nth-child(11),
@@ -383,7 +390,8 @@
 	.eight.letter span:nth-child(11),
 	.nine.letter span:nth-child(11),
 	.zero.letter span:nth-child(11),
-	.forward.letter span:nth-child(11){
+	.forward.letter span:nth-child(11),
+	.space.letter span:nth-child(11){
 		height: 0px;
 	}
 	.c.letter span:nth-child(12),
@@ -403,7 +411,8 @@
 	.two.letter span:nth-child(12),
 	.seven.letter span:nth-child(12),
 	.forward.letter span:nth-child(12),
-	.star.letter span:nth-child(12){
+	.star.letter span:nth-child(12),
+	.space.letter span:nth-child(12){
 		height: 0px;
 	}
 	.a.letter span:nth-child(13),
@@ -437,7 +446,8 @@
 	.six.letter span:nth-child(13),
 	.seven.letter span:nth-child(13),
 	.eight.letter span:nth-child(13),
-	.nine.letter span:nth-child(13){
+	.nine.letter span:nth-child(13),
+	.space.letter span:nth-child(13){
 		width: 0px;
 	}
 	.a.letter span:nth-child(14),
@@ -470,7 +480,8 @@
 	.seven.letter span:nth-child(14),
 	.eight.letter span:nth-child(14),
 	.nine.letter span:nth-child(14),
-	.forward.letter span:nth-child(14){
+	.forward.letter span:nth-child(14),
+	.space.letter span:nth-child(14){
 		width: 0px;
 	}
 	.a.letter span:nth-child(15),
@@ -503,7 +514,8 @@
 	.eight.letter span:nth-child(15),
 	.nine.letter span:nth-child(15),
 	.zero.letter span:nth-child(15),
-	.forward.letter span:nth-child(15){
+	.forward.letter span:nth-child(15),
+	.space.letter span:nth-child(15){
 		width: 0px;
 	}
 	.a.letter span:nth-child(16),
@@ -537,9 +549,29 @@
 	.six.letter span:nth-child(16),
 	.eight.letter span:nth-child(16),
 	.nine.letter span:nth-child(16),
-	.zero.letter span:nth-child(16){
+	.zero.letter span:nth-child(16),
+	.space.letter span:nth-child(16){
 		width: 0px;
 	}
 
+	.clock.letter span:nth-child(n+13):nth-child(-n+16),
+	.clock.letter span:nth-child(11),
+	.clock.letter span:nth-child(4){
+		width: 0px;
+	}
+	.clock.letter span:nth-child(3){
+		 -webkit-animation: tick 60s linear infinite;
+		transform-origin: center right;
+	}
+	.clock.letter span:nth-child(8){
+		width: 0.3em; 
+		-webkit-animation: tick 3600s linear infinite;
+		transform-origin: center left;
+	}
+	@-webkit-keyframes tick
+	{
+		0%   {transform: rotate(0deg);}
+		100% {transform: rotate(360deg);}
+	}
 
 	
