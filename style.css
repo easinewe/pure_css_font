@@ -78,6 +78,12 @@
 		left: 50%;
 		transform-origin: center left;
 	}
+	
+	/*group: truncated bars*/
+	.colon.letter span:nth-child(9),
+	.colon.letter span:nth-child(12){
+		height: 25%;
+	}
 
 	/* single bars */
 
@@ -164,7 +170,17 @@
 	.forward.letter span:nth-child(1),
 	.four.letter span:nth-child(1),
 	.star.letter span:nth-child(1),
-	.space.letter span:nth-child(1){
+	.space.letter span:nth-child(1),
+	.slash.letter span:nth-child(1),
+	.colon.letter span:nth-child(1),
+	.question.letter span:nth-child(1),
+	.exclamation.letter span:nth-child(1),
+	.quote.letter span:nth-child(1),
+	.single_quote.letter span:nth-child(1),
+	.hyphen.letter span:nth-child(1),
+	.period.letter span:nth-child(1),
+	.comma.letter span:nth-child(1),
+	.dash.letter span:nth-child(1){
 		width: 0px;
 	}
 	.h.letter span:nth-child(2),
@@ -182,7 +198,17 @@
 	.one.letter span:nth-child(2),
 	.four.letter span:nth-child(2),
 	.star.letter span:nth-child(2),
-	.space.letter span:nth-child(2){
+	.space.letter span:nth-child(2),
+	.slash.letter span:nth-child(2),
+	.colon.letter span:nth-child(2),
+	.question.letter span:nth-child(2),
+	.exclamation.letter span:nth-child(2),
+	.quote.letter span:nth-child(2),
+	.single_quote.letter span:nth-child(2),
+	.hyphen.letter span:nth-child(2),
+	.period.letter span:nth-child(2),
+	.comma.letter span:nth-child(2),
+	.dash.letter span:nth-child(2){
 		width: 0px;
 	}
 	.b.letter span:nth-child(3),
@@ -207,7 +233,16 @@
 	.three.letter span:nth-child(3),
 	.seven.letter span:nth-child(3),
 	.zero.letter span:nth-child(3),
-	.space.letter span:nth-child(3){
+	.space.letter span:nth-child(3),
+	.slash.letter span:nth-child(3),
+	.colon.letter span:nth-child(3),
+	.question.letter span:nth-child(3),
+	.exclamation.letter span:nth-child(3),
+	.quote.letter span:nth-child(3),
+	.single_quote.letter span:nth-child(3),
+	.period.letter span:nth-child(3),
+	.comma.letter span:nth-child(3),
+	.dash.letter span:nth-child(3){
 		width: 0px;
 	}
 	.c.letter span:nth-child(4),
@@ -230,7 +265,18 @@
 	.one.letter span:nth-child(4),
 	.seven.letter span:nth-child(4),
 	.zero.letter span:nth-child(4),
-	.space.letter span:nth-child(4){
+	.space.letter span:nth-child(4),
+	.slash.letter span:nth-child(4),
+	.at.letter span:nth-child(4),
+	.colon.letter span:nth-child(4),
+	.question.letter span:nth-child(4),
+	.exclamation.letter span:nth-child(4),
+	.quote.letter span:nth-child(4),
+	.single_quote.letter span:nth-child(4),
+	.hyphen.letter span:nth-child(4),
+	.period.letter span:nth-child(4),
+	.comma.letter span:nth-child(4),
+	.dash.letter span:nth-child(4){
 		width: 0px;
 	}
 	.a.letter span:nth-child(5),
@@ -248,7 +294,17 @@
 	.four.letter span:nth-child(5),
 	.seven.letter span:nth-child(5),
 	.star.letter span:nth-child(5),
-	.space.letter span:nth-child(5){
+	.space.letter span:nth-child(5),
+	.slash.letter span:nth-child(5),
+	.colon.letter span:nth-child(5),
+	.question.letter span:nth-child(5),
+	.exclamation.letter span:nth-child(5),
+	.quote.letter span:nth-child(5),
+	.single_quote.letter span:nth-child(5),
+	.hyphen.letter span:nth-child(5),
+	.period.letter span:nth-child(5),
+	.comma.letter span:nth-child(5),
+	.dash.letter span:nth-child(5){
 		width: 0px;
 	}
 	.a.letter span:nth-child(6),
@@ -266,7 +322,17 @@
 	.seven.letter span:nth-child(6),
 	.forward.letter span:nth-child(6),
 	.star.letter span:nth-child(6),
-	.space.letter span:nth-child(6){
+	.space.letter span:nth-child(6),
+	.slash.letter span:nth-child(6),
+	.colon.letter span:nth-child(6),
+	.question.letter span:nth-child(6),
+	.exclamation.letter span:nth-child(6),
+	.quote.letter span:nth-child(6),
+	.single_quote.letter span:nth-child(6),
+	.hyphen.letter span:nth-child(6),
+	.period.letter span:nth-child(6),
+	.comma.letter span:nth-child(6),
+	.dash.letter span:nth-child(6){
 		width: 0px;
 	}
 	.i.letter span:nth-child(7),
@@ -280,7 +346,18 @@
 	.seven.letter span:nth-child(7),
 	.forward.letter span:nth-child(7),
 	.star.letter span:nth-child(7),
-	.space.letter span:nth-child(7){
+	.space.letter span:nth-child(7),
+	.slash.letter span:nth-child(7),
+	.at.letter span:nth-child(7),
+	.colon.letter span:nth-child(7),
+	.question.letter span:nth-child(7),
+	.exclamation.letter span:nth-child(7),
+	.quote.letter span:nth-child(7),
+	.single_quote.letter span:nth-child(7),
+	.hyphen.letter span:nth-child(7),
+	.period.letter span:nth-child(7),
+	.comma.letter span:nth-child(7),
+	.dash.letter span:nth-child(7){
 		height: 0px;
 	}
 	.a.letter span:nth-child(8),
@@ -317,7 +394,17 @@
 	.nine.letter span:nth-child(8),
 	.zero.letter span:nth-child(8),
 	.forward.letter span:nth-child(8),
-	.space.letter span:nth-child(8){
+	.space.letter span:nth-child(8),
+	.slash.letter span:nth-child(8),
+	.at.letter span:nth-child(8),
+	.colon.letter span:nth-child(8),
+	.question.letter span:nth-child(8),
+	.exclamation.letter span:nth-child(8),
+	.single_quote.letter span:nth-child(8),
+	.hyphen.letter span:nth-child(8),
+	.period.letter span:nth-child(8),
+	.comma.letter span:nth-child(8),
+	.dash.letter span:nth-child(8){
 		height: 0px;
 	}
 	.c.letter span:nth-child(9),
@@ -338,7 +425,15 @@
 	.seven.letter span:nth-child(9),
 	.forward.letter span:nth-child(9),
 	.star.letter span:nth-child(9),
-	.space.letter span:nth-child(9){
+	.space.letter span:nth-child(9),
+	.slash.letter span:nth-child(9),
+	.question.letter span:nth-child(9),
+	.exclamation.letter span:nth-child(9),
+	.single_quote.letter span:nth-child(9),
+	.hyphen.letter span:nth-child(9),
+	.period.letter span:nth-child(9),
+	.comma.letter span:nth-child(9),
+	.dash.letter span:nth-child(9){
 		height: 0px;
 	}
 	.i.letter span:nth-child(10),
@@ -356,7 +451,17 @@
 	.nine.letter span:nth-child(10),
 	.forward.letter span:nth-child(10),
 	.star.letter span:nth-child(10),
-	.space.letter span:nth-child(10){
+	.space.letter span:nth-child(10),
+	.slash.letter span:nth-child(10),
+	.colon.letter span:nth-child(10),
+	.question.letter span:nth-child(10),
+	.exclamation.letter span:nth-child(10),
+	.quote.letter span:nth-child(10),
+	.single_quote.letter span:nth-child(10),
+	.hyphen.letter span:nth-child(10),
+	.period.letter span:nth-child(10),
+	.comma.letter span:nth-child(10),
+	.dash.letter span:nth-child(10){
 		height: 0px;
 	}
 	.a.letter span:nth-child(11),
@@ -391,7 +496,17 @@
 	.nine.letter span:nth-child(11),
 	.zero.letter span:nth-child(11),
 	.forward.letter span:nth-child(11),
-	.space.letter span:nth-child(11){
+	.space.letter span:nth-child(11),
+	.slash.letter span:nth-child(11),
+	.colon.letter span:nth-child(11),
+	.question.letter span:nth-child(11),
+	.exclamation.letter span:nth-child(11),
+	.quote.letter span:nth-child(11),
+	.single_quote.letter span:nth-child(11),
+	.hyphen.letter span:nth-child(11),
+	.period.letter span:nth-child(11),
+	.comma.letter span:nth-child(11),
+	.dash.letter span:nth-child(11){
 		height: 0px;
 	}
 	.c.letter span:nth-child(12),
@@ -412,7 +527,16 @@
 	.seven.letter span:nth-child(12),
 	.forward.letter span:nth-child(12),
 	.star.letter span:nth-child(12),
-	.space.letter span:nth-child(12){
+	.space.letter span:nth-child(12),
+	.slash.letter span:nth-child(12),
+	.question.letter span:nth-child(12),
+	.exclamation.letter span:nth-child(12),
+	.quote.letter span:nth-child(12),
+	.single_quote.letter span:nth-child(12),
+	.hyphen.letter span:nth-child(12),
+	.period.letter span:nth-child(12),
+	.comma.letter span:nth-child(12),
+	.dash.letter span:nth-child(12){
 		height: 0px;
 	}
 	.a.letter span:nth-child(13),
@@ -447,7 +571,18 @@
 	.seven.letter span:nth-child(13),
 	.eight.letter span:nth-child(13),
 	.nine.letter span:nth-child(13),
-	.space.letter span:nth-child(13){
+	.space.letter span:nth-child(13),
+	.slash.letter span:nth-child(13),
+	.at.letter span:nth-child(13),
+	.colon.letter span:nth-child(13),
+	.question.letter span:nth-child(13),
+	.exclamation.letter span:nth-child(13),
+	.quote.letter span:nth-child(13),
+	.single_quote.letter span:nth-child(13),
+	.hyphen.letter span:nth-child(13),
+	.period.letter span:nth-child(13),
+	.comma.letter span:nth-child(13),
+	.dash.letter span:nth-child(13){
 		width: 0px;
 	}
 	.a.letter span:nth-child(14),
@@ -481,7 +616,18 @@
 	.eight.letter span:nth-child(14),
 	.nine.letter span:nth-child(14),
 	.forward.letter span:nth-child(14),
-	.space.letter span:nth-child(14){
+	.space.letter span:nth-child(14),
+	.slash.letter span:nth-child(14),
+	.at.letter span:nth-child(14),
+	.colon.letter span:nth-child(14),
+	.question.letter span:nth-child(14),
+	.exclamation.letter span:nth-child(14),
+	.quote.letter span:nth-child(14),
+	.single_quote.letter span:nth-child(14),
+	.hyphen.letter span:nth-child(14),
+	.period.letter span:nth-child(14),
+	.comma.letter span:nth-child(14),
+	.dash.letter span:nth-child(14){
 		width: 0px;
 	}
 	.a.letter span:nth-child(15),
@@ -496,7 +642,6 @@
 	.j.letter span:nth-child(15),
 	.l.letter span:nth-child(15),
 	.n.letter span:nth-child(15),
-	.o.letter span:nth-child(15),
 	.p.letter span:nth-child(15),
 	.q.letter span:nth-child(15),
 	.r.letter span:nth-child(15),
@@ -515,7 +660,16 @@
 	.nine.letter span:nth-child(15),
 	.zero.letter span:nth-child(15),
 	.forward.letter span:nth-child(15),
-	.space.letter span:nth-child(15){
+	.space.letter span:nth-child(15),
+	.at.letter span:nth-child(15),
+	.colon.letter span:nth-child(15),
+	.question.letter span:nth-child(15),
+	.exclamation.letter span:nth-child(15),
+	.quote.letter span:nth-child(15),
+	.hyphen.letter span:nth-child(15),
+	.period.letter span:nth-child(15),
+	.comma.letter span:nth-child(15),
+	.dash.letter span:nth-child(15){
 		width: 0px;
 	}
 	.a.letter span:nth-child(16),
@@ -532,7 +686,6 @@
 	.l.letter span:nth-child(16),
 	.m.letter span:nth-child(16),
 	.n.letter span:nth-child(16),
-	.o.letter span:nth-child(16),
 	.p.letter span:nth-child(16),
 	.q.letter span:nth-child(16),
 	.r.letter span:nth-child(16),
@@ -550,7 +703,17 @@
 	.eight.letter span:nth-child(16),
 	.nine.letter span:nth-child(16),
 	.zero.letter span:nth-child(16),
-	.space.letter span:nth-child(16){
+	.space.letter span:nth-child(16),
+	.at.letter span:nth-child(16),
+	.colon.letter span:nth-child(16),
+	.question.letter span:nth-child(16),
+	.exclamation.letter span:nth-child(16),
+	.quote.letter span:nth-child(16),
+	.single_quote.letter span:nth-child(16),
+	.hyphen.letter span:nth-child(16),
+	.period.letter span:nth-child(16),
+	.comma.letter span:nth-child(16),
+	.dash.letter span:nth-child(16){
 		width: 0px;
 	}
 

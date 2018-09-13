@@ -24,7 +24,8 @@ function showTweet(){
   		
 		new_class = tweet[index];
 		new_class = (new_class)?new_class:'star'; //fills any remaining space with stars
-		new_class = ( new_class && (new_class == ' ') )?'space':new_class.toLowerCase();  //create spaces or change to lowercase
+		new_class = translateCharacters(new_class);
+		new_class = new_class.toLowerCase();  //change to lowercase
 		
 		gl.className = new_class + ' letter';
 		
@@ -32,6 +33,32 @@ function showTweet(){
 	
 	//console.log(tweet);
 
+}
+
+//translate special characters to named styles
+function translateCharacters(character){
+	
+	switch (character) {
+		case ':':
+			character = "colon";
+			break;
+		case '/':
+			character = "slash";
+			break;
+		case ' ':
+			character = "space";
+			break;
+		case '"':
+			character = "quote";
+			break;
+		case '\'':
+			character = "single_quote";
+			break;
+		default:
+			character = character;
+	}
+	
+	return character;
 }
 
 
