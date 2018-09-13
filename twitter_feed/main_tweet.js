@@ -3,7 +3,7 @@
 /* VARIABLES */
 
 var grid = document.getElementById('grid'),
-	tweets = document.querySelectorAll('#tweet_list li'),
+	tweets = document.querySelectorAll('#tweet_list li.morphing'),
 	twitter_character_limit = 280,
 	refresh_rate = 40; //in seconds
 
@@ -90,6 +90,21 @@ function translateCharacters(character){
 		case '?':
 			character = "question";
 			break;
+		case '%':
+			character = "percent";
+			break;
+		case '+':
+			character = "plus";
+			break;
+		case '-':
+			character = "minus";
+			break;
+		case '(':
+			character = "open";
+			break;
+		case ')':
+			character = "close";
+			break;
 		case '1':
 			character = "one";
 			break;
@@ -116,6 +131,9 @@ function translateCharacters(character){
 			break;
 		case '9':
 			character = "nine";
+			break;
+		case '0':
+			character = "zero";
 			break;
 		default:
 			character = character;

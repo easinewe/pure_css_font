@@ -12,7 +12,8 @@
 		<!--Pull in and display tweets from specific usernames with css font-->
 
 		<?php
-			$tweets = returnTweet('realDonaldTrump');
+			$handle = 'realDonaldTrump';
+			$tweets = returnTweet($handle);
 			//var_dump($tweets);	
 		?>	
 
@@ -23,7 +24,7 @@
 					$pub_date = $tweet["created_at"];
 					$date = date("m/d/y", strtotime($pub_date));
 
-					echo '<li data-date="'.$date.'">'.$text.'</li>';
+					echo '<li class="morphing" data-date="'.$date.'">'.$text.'</li>';
 				}
 			?>
 		</ul>

@@ -199,7 +199,12 @@
 	.hyphen.letter span:nth-child(1),
 	.period.letter span:nth-child(1),
 	.comma.letter span:nth-child(1),
-	.dash.letter span:nth-child(1){
+	.dash.letter span:nth-child(1),
+	.percent.letter span:nth-child(1),
+	.plus.letter span:nth-child(1),
+	.minus.letter span:nth-child(1),
+	.open.letter span:nth-child(1),
+	.underscore.letter span:nth-child(1){
 		width: 0px;
 	}
 	.h.letter span:nth-child(2),
@@ -226,7 +231,12 @@
 	.hyphen.letter span:nth-child(2),
 	.period.letter span:nth-child(2),
 	.comma.letter span:nth-child(2),
-	.dash.letter span:nth-child(2){
+	.dash.letter span:nth-child(2),
+	.percent.letter span:nth-child(2),
+	.plus.letter span:nth-child(2),
+	.minus.letter span:nth-child(2),
+	.close.letter span:nth-child(2),
+	.underscore.letter span:nth-child(2){
 		width: 0px;
 	}
 	.b.letter span:nth-child(3),
@@ -259,7 +269,11 @@
 	.quote.letter span:nth-child(3),
 	.single_quote.letter span:nth-child(3),
 	.period.letter span:nth-child(3),
-	.comma.letter span:nth-child(3){
+	.comma.letter span:nth-child(3),
+	.percent.letter span:nth-child(3),
+	.open.letter span:nth-child(3),
+	.close.letter span:nth-child(3),
+	.underscore.letter span:nth-child(3){
 		width: 0px;
 	}
 	.c.letter span:nth-child(4),
@@ -291,7 +305,11 @@
 	.single_quote.letter span:nth-child(4),
 	.hyphen.letter span:nth-child(4),
 	.period.letter span:nth-child(4),
-	.comma.letter span:nth-child(4){
+	.comma.letter span:nth-child(4),
+	.percent.letter span:nth-child(4),
+	.open.letter span:nth-child(4),
+	.close.letter span:nth-child(4),
+	.underscore.letter span:nth-child(4){
 		width: 0px;
 	}
 	.a.letter span:nth-child(5),
@@ -318,7 +336,11 @@
 	.single_quote.letter span:nth-child(5),
 	.hyphen.letter span:nth-child(5),
 	.comma.letter span:nth-child(5),
-	.dash.letter span:nth-child(5){
+	.dash.letter span:nth-child(5),
+	.percent.letter span:nth-child(5),
+	.plus.letter span:nth-child(5),
+	.minus.letter span:nth-child(5),
+	.open.letter span:nth-child(5){
 		width: 0px;
 	}
 	.a.letter span:nth-child(6),
@@ -346,7 +368,11 @@
 	.period.letter span:nth-child(6),
 	.hyphen.letter span:nth-child(6),
 	.comma.letter span:nth-child(6),
-	.dash.letter span:nth-child(6){
+	.dash.letter span:nth-child(6),
+	.percent.letter span:nth-child(6),
+	.plus.letter span:nth-child(6),
+	.minus.letter span:nth-child(6),
+	.close.letter span:nth-child(6){
 		width: 0px;
 	}
 	.i.letter span:nth-child(7),
@@ -371,7 +397,12 @@
 	.hyphen.letter span:nth-child(7),
 	.period.letter span:nth-child(7),
 	.comma.letter span:nth-child(7),
-	.dash.letter span:nth-child(7){
+	.dash.letter span:nth-child(7),
+	.plus.letter span:nth-child(7),
+	.minus.letter span:nth-child(7),
+	.open.letter span:nth-child(7),
+	.close.letter span:nth-child(7),
+	.underscore.letter span:nth-child(7){
 		height: 0px;
 	}
 	.a.letter span:nth-child(8),
@@ -416,7 +447,10 @@
 	.hyphen.letter span:nth-child(8),
 	.period.letter span:nth-child(8),
 	.comma.letter span:nth-child(8),
-	.dash.letter span:nth-child(8){
+	.dash.letter span:nth-child(8),
+	.percent.letter span:nth-child(8),
+	.minus.letter span:nth-child(8),
+	.underscore.letter span:nth-child(8){
 		height: 0px;
 	}
 	.c.letter span:nth-child(9),
@@ -444,7 +478,13 @@
 	.hyphen.letter span:nth-child(9),
 	.period.letter span:nth-child(9),
 	.comma.letter span:nth-child(9),
-	.dash.letter span:nth-child(9){
+	.dash.letter span:nth-child(9),
+	.percent.letter span:nth-child(9),
+	.plus.letter span:nth-child(9),
+	.minus.letter span:nth-child(9),
+	.open.letter span:nth-child(9),
+	.close.letter span:nth-child(9),
+	.underscore.letter span:nth-child(9){
 		height: 0px;
 	}
 	.i.letter span:nth-child(10),
@@ -471,7 +511,13 @@
 	.single_quote.letter span:nth-child(10),
 	.hyphen.letter span:nth-child(10),
 	.period.letter span:nth-child(10),
-	.dash.letter span:nth-child(10){
+	.dash.letter span:nth-child(10),
+	.percent.letter span:nth-child(10),
+	.plus.letter span:nth-child(10),
+	.minus.letter span:nth-child(10),
+	.open.letter span:nth-child(10),
+	.close.letter span:nth-child(10),
+	.underscore.letter span:nth-child(10){
 		height: 0px;
 	}
 	.a.letter span:nth-child(11),
@@ -514,7 +560,10 @@
 	.hyphen.letter span:nth-child(11),
 	.period.letter span:nth-child(11),
 	.comma.letter span:nth-child(11),
-	.dash.letter span:nth-child(11){
+	.dash.letter span:nth-child(11),
+	.percent.letter span:nth-child(11),
+	.minus.letter span:nth-child(11),
+	.underscore.letter span:nth-child(11){
 		height: 0px;
 	}
 	.c.letter span:nth-child(12),
@@ -544,7 +593,12 @@
 	.hyphen.letter span:nth-child(12),
 	.period.letter span:nth-child(12),
 	.comma.letter span:nth-child(12),
-	.dash.letter span:nth-child(12){
+	.dash.letter span:nth-child(12),
+	.plus.letter span:nth-child(12),
+	.minus.letter span:nth-child(12),
+	.open.letter span:nth-child(12),
+	.close.letter span:nth-child(12),
+	.underscore.letter span:nth-child(12){
 		height: 0px;
 	}
 	.a.letter span:nth-child(13),
@@ -590,7 +644,13 @@
 	.hyphen.letter span:nth-child(13),
 	.period.letter span:nth-child(13),
 	.comma.letter span:nth-child(13),
-	.dash.letter span:nth-child(13){
+	.dash.letter span:nth-child(13),
+	.percent.letter span:nth-child(13),
+	.plus.letter span:nth-child(13),
+	.minus.letter span:nth-child(13),
+	.open.letter span:nth-child(13),
+	.close.letter span:nth-child(13),
+	.underscore.letter span:nth-child(13){
 		width: 0px;
 	}
 	.a.letter span:nth-child(14),
@@ -635,7 +695,13 @@
 	.hyphen.letter span:nth-child(14),
 	.period.letter span:nth-child(14),
 	.comma.letter span:nth-child(14),
-	.dash.letter span:nth-child(14){
+	.dash.letter span:nth-child(14),
+	.percent.letter span:nth-child(14),
+	.plus.letter span:nth-child(14),
+	.minus.letter span:nth-child(14),
+	.open.letter span:nth-child(14),
+	.close.letter span:nth-child(14),
+	.underscore.letter span:nth-child(14){
 		width: 0px;
 	}
 	.a.letter span:nth-child(15),
@@ -678,7 +744,12 @@
 	.hyphen.letter span:nth-child(15),
 	.period.letter span:nth-child(15),
 	.comma.letter span:nth-child(15),
-	.dash.letter span:nth-child(15){
+	.dash.letter span:nth-child(15),
+	.plus.letter span:nth-child(15),
+	.minus.letter span:nth-child(15),
+	.open.letter span:nth-child(15),
+	.close.letter span:nth-child(15),
+	.underscore.letter span:nth-child(15){
 		width: 0px;
 	}
 	.a.letter span:nth-child(16),
@@ -722,7 +793,12 @@
 	.hyphen.letter span:nth-child(16),
 	.period.letter span:nth-child(16),
 	.comma.letter span:nth-child(16),
-	.dash.letter span:nth-child(16){
+	.dash.letter span:nth-child(16),
+	.plus.letter span:nth-child(16),
+	.minus.letter span:nth-child(16),
+	.open.letter span:nth-child(16),
+	.close.letter span:nth-child(16),
+	.underscore.letter span:nth-child(16){
 		width: 0px;
 	}
 
