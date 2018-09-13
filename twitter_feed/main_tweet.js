@@ -5,7 +5,7 @@
 var grid = document.getElementById('grid'),
 	tweets = document.querySelectorAll('#tweet_list li'),
 	twitter_character_limit = 280,
-	refresh_rate = 10; //in seconds
+	refresh_rate = 40; //in seconds
 
 
 /* FUNCTIONS */
@@ -39,6 +39,9 @@ function showTweet(){
 function translateCharacters(character){
 	
 	switch (character) {
+		case '#':
+			character = "star";
+			break;
 		case ':':
 			character = "colon";
 			break;
@@ -48,11 +51,71 @@ function translateCharacters(character){
 		case ' ':
 			character = "space";
 			break;
+		case '“':
+			character = "quote";
+			break;
+		case '”':
+			character = "quote";
+			break;
 		case '"':
 			character = "quote";
 			break;
+		case '\’':
+			character = "single_quote";
+			break;
 		case '\'':
 			character = "single_quote";
+			break;
+		case ',':
+			character = "comma";
+			break;
+		case '…':
+			character = "dash";
+			break;
+		case '–':
+			character = "dash";
+			break;
+		case '-':
+			character = "hyphen";
+			break;
+		case '.':
+			character = "period";
+			break;
+		case '@':
+			character = "at";
+			break;
+		case '!':
+			character = "exclamation";
+			break;
+		case '?':
+			character = "question";
+			break;
+		case '1':
+			character = "one";
+			break;
+		case '2':
+			character = "two";
+			break;
+		case '3':
+			character = "three";
+			break;
+		case '4':
+			character = "four";
+			break;
+		case '5':
+			character = "five";
+			break;
+		case '6':
+			character = "six";
+			break;
+		case '7':
+			character = "seven";
+			break;
+		case '8':
+			character = "eight";
+			break;
+		case '9':
+			character = "nine";
 			break;
 		default:
 			character = character;
