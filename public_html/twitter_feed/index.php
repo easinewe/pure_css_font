@@ -12,8 +12,8 @@
 		<!--Pull in and display tweets from specific usernames with css font-->
 
 		<?php
-			$handle = 'realDonaldTrump';
-			$tweets = returnTweet($handle);
+			$screen_name = 'realDonaldTrump';
+			$tweets = returnTweet($screen_name);
 			//var_dump($tweets);	
 		?>	
 

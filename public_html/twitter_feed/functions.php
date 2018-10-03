@@ -25,9 +25,8 @@ function returnTweet($screen_name){
 
     $twitter_timeline           = "user_timeline";  //  mentions_timeline / user_timeline / home_timeline / retweets_of_me
 
-    //  create request
+    	// create request
         $request = array(
-          //'screen_name'     	=> 'realDonaldTrump',
 			'screen_name'       => $screen_name,
             'count'             => '200'
         );
